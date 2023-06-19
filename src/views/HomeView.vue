@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p class="title">Simple Calculator</p>
+        <h1>Simple Calculator</h1>
         <div class="calculator">
             <div class="outputContainer">
                 <div class="outputCalc">{{ calculatorValue }}</div>
@@ -84,12 +84,15 @@
 </script>
 
 <style scoped>
-.title{
+h1{
     text-align: center;
-    font-size: 22pt;
+    color: #F97068;
+    font-size: 32pt;
+    font-family: 'lobster';
+    margin-top: 50px;
 }
 .calculator{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .outputContainer {
     text-align: right;
