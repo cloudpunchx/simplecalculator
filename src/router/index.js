@@ -11,7 +11,7 @@ const routes = [
     component: HomeView,
     meta: [
       {
-        title: "Cute Calculator"
+        title: "Simple Calculator"
       },
       {
         name: "description",
